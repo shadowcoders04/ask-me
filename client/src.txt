@@ -1,0 +1,81 @@
+src
+├── actions
+│   ├── auth.js
+│   ├── currentUser.js
+│   ├── question.js
+│   └── users.js
+├── AllRoutes.jsx
+├── api
+│   └── index.js
+├── App.css
+├── App.js
+├── assets
+│   ├── bars-solid.svg
+│   ├── blacklogo.svg
+│   ├── comment-alt-solid.svg
+│   ├── Globe.svg
+│   ├── icon.png
+│   ├── logo.png
+│   ├── pen-solid.svg
+│   ├── search-solid.svg
+│   ├── sort-down.svg
+│   └── sort-up.svg
+├── components
+│   ├── Avatar
+│   │   └── Avatar.jsx
+│   ├── HomeMainbar
+│   │   ├── HomeMainbar.css
+│   │   ├── HomeMainbar.jsx
+│   │   ├── QuestionList.jsx
+│   │   └── Questions.jsx
+│   ├── LeftSidebar
+│   │   ├── LeftSidebar.css
+│   │   └── LeftSidebar.jsx
+│   ├── Navbar
+│   │   ├── Navbar.css
+│   │   └── Navbar.jsx
+│   └── RightSidebar
+│       ├── RightSidebar.css
+│       ├── RightSidebar.jsx
+│       ├── Widget.jsx
+│       └── WidgetTags.jsx
+├── index.css
+├── index.js
+├── Pages
+│   ├── AskQuestion
+│   │   ├── AskQuestion.css
+│   │   └── AskQuestion.jsx
+│   ├── Auth
+│   │   ├── AboutAuth.jsx
+│   │   ├── Auth.css
+│   │   └── Auth.jsx
+│   ├── EditorToolbar.js
+│   ├── Home
+│   │   └── Home.jsx
+│   ├── Questions
+│   │   ├── DisplayAnswer.jsx
+│   │   ├── DisplayQuestion.jsx
+│   │   ├── Questions.css
+│   │   ├── Questions.jsx
+│   │   └── QuestionsDetails.jsx
+│   ├── Tags
+│   │   ├── tagList.js
+│   │   ├── Tags.css
+│   │   ├── Tags.jsx
+│   │   └── TagsList.jsx
+│   ├── UserProfile
+│   │   ├── EditProfileForm.jsx
+│   │   ├── ProfileBio.jsx
+│   │   ├── UserProfile.jsx
+│   │   └── UsersProfile.css
+│   └── Users
+│       ├── User.jsx
+│       ├── Users.css
+│       ├── Users.jsx
+│       └── UsersList.jsx
+└── reducers
+    ├── auth.js
+    ├── currentUser.js
+    ├── index.js
+    ├── questions.js
+    └── users.js
