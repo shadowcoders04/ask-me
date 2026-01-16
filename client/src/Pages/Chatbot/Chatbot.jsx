@@ -16,7 +16,7 @@ const Chatbot = () => {
     setChat((prev) => [...prev, { from: "user", text: userMsg }]);
 
     try {
-      const res = await fetch("http://localhost:5000/api/chat", {
+      const res = await fetch("https://ask-me-server-six.vercel.app/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userMsg }),
