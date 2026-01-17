@@ -7,6 +7,7 @@ import AllRoutes from "./AllRoutes";
 import { fetchAllQuestions } from "./actions/question";
 import { fetchAllUsers } from "./actions/users";
 import { ToastContainer } from "react-toastify";
+import FloatingChatbot from "./components/FloatingChatbot/FloatingChatbot";
 
 function App() {
   const dispatch = useDispatch();
@@ -67,6 +68,8 @@ function App() {
           Powered By Shadow Coder'S
         </footer>
 
+        {/* Floating Chatbot */}
+        <FloatingChatbot />
       </Router>
     </div>
   );
