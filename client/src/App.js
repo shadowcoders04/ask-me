@@ -31,11 +31,42 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}
+    >
       <Router>
         <Navbar handleSlideIn={handleSlideIn} />
-        <ToastContainer position="top-center" limit={3} closeButton={false} theme="colored" />
-        <AllRoutes slideIn={slideIn} handleSlideIn={handleSlideIn} />
+
+        <ToastContainer
+          position="top-center"
+          limit={3}
+          closeButton={false}
+          theme="colored"
+        />
+
+        {/* Main Content */}
+        <div style={{ flex: 1 }}>
+          <AllRoutes
+            slideIn={slideIn}
+            handleSlideIn={handleSlideIn}
+          />
+        </div>
+
+        {/* Footer */}
+        <footer
+          style={{
+            textAlign: "center",
+            padding: "10px 0",
+            fontSize: "14px",
+            color: "#666",
+            borderTop: "1px solid #eaeaea",
+            backgroundColor: "#fff"
+          }}
+        >
+          Powered By Shadow Coder'S
+        </footer>
+
       </Router>
     </div>
   );
